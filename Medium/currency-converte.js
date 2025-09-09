@@ -20,7 +20,7 @@ function convertCurrency(sourceCurrency, targetCurrency, amount) {
     }
     // !
   } else if (sourceCurrency.toString() == "EUR") {
-      if (targetCurrency.toString() == "EUR") {
+    if (targetCurrency.toString() == "EUR") {
       return USD_EUR(amount);
     } else if (targetCurrency.toString() == "INR") {
       USD_INR(amount);
