@@ -1,2 +1,1 @@
-rstword++;
-      console.log(firstword);
+true
