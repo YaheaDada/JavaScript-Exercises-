@@ -1,5 +1,4 @@
 function convertToSnakeCase(str) {
-
   let res = "";
   for (let i = 0; i < str.length; i++) {
     if (str[i] == " ") {
@@ -12,3 +11,5 @@ function convertToSnakeCase(str) {
   console.log(res.toLowerCase());
   return res.toLowerCase();
 }
+
+convertToSnakeCase("DwadA DWADAWD");
